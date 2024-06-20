@@ -1,0 +1,19 @@
+{
+  "name": "cum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --watch --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vaadin/router": "^1.7.5",
+    "lit-element": "^4.0.6",
+    "lit-html": "^3.1.4"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.55.1"
+  }
+}
